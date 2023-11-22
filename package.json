@@ -17,7 +17,7 @@
     "stylelint": "npx stylelint src/*.{css,scss}",
     "stylelint:fix": "npx stylelint src/*.{css,scss} --fix",
     "sb": "storybook dev -p 6006",
-    "build-sb": "storybook build"
+    "build:sb": "storybook build"
   },
   "dependencies": {
     "@reduxjs/toolkit": "^1.9.7",
