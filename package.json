@@ -14,8 +14,8 @@
     "test-coverage": "jest --coverage --config __jest__/jest.config.js",
     "prettier": "prettier --check .",
     "prettier:fix": "prettier --write .",
-    "stylelint": "npx stylelint \"**/*.{scss,css}\"",
-    "stylelint:fix": "npx stylelint --fix \"**/*.{scss,css}\"",
+    "stylelint": "npx stylelint \"src/**/*.{scss,css}\"",
+    "stylelint:fix": "npx stylelint --fix \"src/**/*.{scss,css}\"",
     "sb": "storybook dev -p 6006",
     "build:sb": "storybook build"
   },
