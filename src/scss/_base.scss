@@ -1,3 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,400;1,700;1,900&family=Ubuntu:wght@700&display=swap');
+
 :root {
+  --font-primary: 'Lato', sans-serif;
+  --font-secondary: 'Ubuntu', sans-serif;
+  --color-white: rgba(255 255 255 / 100%);
+  --color-primary: rgba(23 105 106 / 100%);
+  --color-success: rgba(3 206 164 / 100%);
+  --color-danger: rgba(255 66 66 / 100%);
+  --color-warning: rgba(248 152 40 / 100%);
+  --color-info: rgba(90 13 252 / 100%);
+  --color-gray-900: rgba(30 33 44 / 100%);
+  --color-gray-800: rgba(66 69 81 / 100%);
+  --color-gray-700: rgba(120 122 128 / 100%);
+  --color-gray-600: rgba(154 156 165 / 100%);
+  --color-gray-500: rgba(179 183 188 / 100%);
+  --color-gray-400: rgba(215 218 221 / 100%);
+  --color-gray-300: rgba(229 232 237 / 100%);
+  --color-gray-200: rgba(244 245 246 / 100%);
+  --color-gray-100: rgba(249 249 249 / 100%);
+  --animate-primary: all 0.3s;
+  --shadow-small:  0px 4px 4px rgb(30 33 44 / 3%), 0px 12px 10px rgb(154 156 165 / 4%), 0px 30px 24px rgb(154 156 165 / 5%), 0px 80px 80px rgb(154 156 165 / 8%);
+  --shadow-regular:  0px 4px 4px rgb(30 33 44 / 5%), 0px 12px 10px rgb(154 156 165 / 8%), 0px 30px 24px rgb(154 156 165 / 10%), 0px 80px 80px rgb(154 156 165 / 16%);
+  --shadow-large:  0px 4px 4px rgb(30 33 44 / 5%), 0px 12px 10px rgb(30 33 44 / 8%), 0px 26px 24px rgb(30 33 44 / 10%), 0px 60px 80px rgb(30 33 44 / 16%);
+}
+
+@mixin text-h1 {
+  font-size: 46px;
+  line-height: 130%;
+}
+
+@mixin text-h2 {
+  font-size: 31px;
+  line-height: 130%;
+}
+
+@mixin text-h3 {
+  font-size: 28px;
+  line-height: 150%;
+}
+
+@mixin text-h4 {
   font-size: 24px;
+  line-height: 130%;
+}
+
+@mixin text-h5 {
+  font-size: 20px;
+  line-height: 130%;
+}
+
+@mixin text-h6 {
+  font-size: 16px;
+  line-height: 150%;
+}
+
+@mixin text-display-h1 {
+  font-size: 72px;
+  line-height: 130%;
+}
+
+@mixin text-display-h2 {
+  font-size: 64px;
+  line-height: 130%;
+}
+
+@mixin text-display-h3 {
+  font-size: 56px;
+  line-height: 130%;
+}
+
+@mixin text-display-h4 {
+  font-size: 48px;
+  line-height: 130%;
+}
+
+@mixin text-lead {
+  font-size: 20px;
+  line-height: 150%;
+}
+
+@mixin text-large {
+  font-size: 18px;
+  line-height: 150%;
+}
+
+@mixin text-base {
+  font-size: 16px;
+  line-height: 160%;
+}
+
+@mixin text-small {
+  font-size: 14px;
+  line-height: 150%;
+}
+
+@mixin text-extrasmall {
+  font-size: 12px;
+  line-height: 150%;
+}
+
+@mixin text-extraextrasmall {
+  font-size: 10px;
+  line-height: 150%;
+}
+
+* {
+  font-family: var(--font-primary);
+  box-sizing: border-box;
+
+  @include text-base;
+}
+
+::placeholder {
+  color: var(--gray-600);
+}
+
+strong {
+  font-weight: 700;
 }
