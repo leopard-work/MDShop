@@ -4,17 +4,19 @@ import { Meta, StoryObj } from "@storybook/react";
 const meta: Meta<typeof Title> = {
   title: "Title",
   component: Title,
+  tags: ["autodocs"],
   argTypes: {
     children: {
       type: "string",
-      name: "Title",
-      description: "The value of the slider",
+      name: "Children",
+      description: "Title content",
     },
     type: {
       type: "string",
       name: "Type",
       control: "radio",
       options: ["h1", "h2", "h3", "h4", "h5", "h6"],
+      description: "Header type H1-H6",
     },
   },
 };
