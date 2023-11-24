@@ -1,10 +1,17 @@
 export default {
-  roots: ["../src"],
+  roots: ["<rootDir>/../src"],
   setupFilesAfterEnv: ["<rootDir>/jest.setup.ts"], // Modules are meant for code which is repeating in each test file
   moduleFileExtensions: ["js", "jsx", "ts", "tsx"],
   moduleNameMapper: {
     "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|webm|wav|mp3|m4a|aac|oga)$":
-      "<rootDir>/filesMock.js",
+      "<rootDir>/../filesMock.js",
+    "assets/(.*)": "<rootDir>/../src/assets/$1",
+    "components/(.*)": "<rootDir>/../src/components/$1",
+    "services/(.*)": "<rootDir>/../src/services/$1",
+    "store/(.*)": "<rootDir>/../src/store/$1",
+    "utils/(.*)": "<rootDir>/../src/utils/$1",
+    "views/(.*)": "<rootDir>/../src/views/$1",
+    "scss/(.*)": "<rootDir>/../src/scss/$1",
   },
   transform: {
     "^.+\\.jsx?$": "babel-jest",

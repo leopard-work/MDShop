@@ -1,0 +1,25 @@
+@use "./src/scss/base";
+
+.h1 {
+  @include base.text-h1;
+}
+
+.h2 {
+  @include base.text-h2;
+}
+
+.h3 {
+  @include base.text-h3;
+}
+
+.h4 {
+  @include base.text-h4;
+}
+
+.h5 {
+  @include base.text-h5;
+}
+
+.h6 {
+  @include base.text-h6;
+}
