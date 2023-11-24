@@ -30,6 +30,6 @@
       "@scss/*": ["./src/scss/*"]
     }
   },
-  "include": ["src"],
+  "include": ["src", "__jest__/jest-setup.ts"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
