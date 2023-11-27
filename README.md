@@ -7,7 +7,7 @@
   </a>
 </p>
 
-## Online store React SPA
+## Clothing and accessories online store React SPA
 
 Templates included: home page, product catalog, product card, checkout page, text page.
 
