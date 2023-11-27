@@ -1,0 +1,41 @@
+@use "./src/scss/base";
+
+.lead {
+  @include base.text-lead;
+}
+
+.large {
+  @include base.text-large;
+}
+
+.base {
+  @include base.text-base;
+}
+
+.small {
+  @include base.text-small;
+}
+
+.extrasmall {
+  @include base.text-extrasmall;
+}
+
+.extraextrasmall {
+  @include base.text-extraextrasmall;
+}
+
+.display-h1 {
+  @include base.text-display-h1;
+}
+
+.display-h2 {
+  @include base.text-display-h2;
+}
+
+.display-h3 {
+  @include base.text-display-h3;
+}
+
+.display-h4 {
+  @include base.text-display-h4;
+}
