@@ -2,7 +2,7 @@
 
 <p align="center">  
   <img src="https://img.shields.io/github/license/leopard-work/MDShop"  alt=""/>
-  <a href="https://github.com/ofnullable/react-spa-template/issues">
+  <a href="https://github.com/leopard-work/MDShop/issues">
     <img src="https://img.shields.io/github/issues/leopard-work/MDShop"  alt=""/>
   </a>
 </p>
