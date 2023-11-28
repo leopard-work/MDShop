@@ -56,7 +56,7 @@ $ npm install
 $ npm run dev
 ```
 
-Storybook on [http://localhost:5173](http://localhost:5173)
+Run dev server on [http://localhost:5173](http://localhost:5173)
 
 ### Run storybook
 
@@ -64,7 +64,7 @@ Storybook on [http://localhost:5173](http://localhost:5173)
 $ npm run sb
 ```
 
-Run dev server on [http://localhost:6006](http://localhost:6006)
+Storybook on [http://localhost:6006](http://localhost:6006)
 
 ### Build
 
