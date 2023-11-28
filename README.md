@@ -24,7 +24,7 @@ Storybook: [https://mdshop-story.solutions4web.ru/](https://mdshop-story.solutio
 ## Main Libraries
 
 - Vite
-- React 
+- React
 - React Redux
 - React Query
 - @reduxjs/toolkit

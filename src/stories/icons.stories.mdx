@@ -1,0 +1,662 @@
+import { Meta, Title, IconGallery, IconItem } from "@storybook/blocks";
+import Up from "../assets/icons/arrows/up.svg?react";
+import Right from "../assets/icons/arrows/right.svg?react";
+import Down from "../assets/icons/arrows/down.svg?react";
+import Left from "../assets/icons/arrows/left.svg?react";
+import TopRight from "../assets/icons/arrows/top-right.svg?react";
+import BottomRight from "../assets/icons/arrows/bottom-right.svg?react";
+import BottomLeft from "../assets/icons/arrows/bottom-left.svg?react";
+import TopLeft from "../assets/icons/arrows/top-left.svg?react";
+
+import Back from "../assets/icons/arrows/other/back.svg?react";
+import Convert from "../assets/icons/arrows/other/convert.svg?react";
+import Expand from "../assets/icons/arrows/other/expand.svg?react";
+import FluidHorizontal from "../assets/icons/arrows/other/fluid-horizontal.svg?react";
+import FluidVertical from "../assets/icons/arrows/other/fluid-vertical.svg?react";
+import Forward from "../assets/icons/arrows/other/forward.svg?react";
+import Horizontal from "../assets/icons/arrows/other/horizontal.svg?react";
+import Reload from "../assets/icons/arrows/other/reload.svg?react";
+import ShareArrow from "../assets/icons/arrows/other/share-arrow.svg?react";
+import UpDownSelect from "../assets/icons/arrows/other/up-down-select.svg?react";
+import Vertical from "../assets/icons/arrows/other/vertical.svg?react";
+
+import Cross from "../assets/icons/plus-minus-cross/cross.svg?react";
+import Minus from "../assets/icons/plus-minus-cross/minus.svg?react";
+import Plus from "../assets/icons/plus-minus-cross/plus.svg?react";
+
+import DownChevron from "../assets/icons/chevrons/down-chevron.svg?react";
+import LeftChevron from "../assets/icons/chevrons/left-chevron.svg?react";
+import RightChevron from "../assets/icons/chevrons/right-chevron.svg?react";
+import UpChevron from "../assets/icons/chevrons/up-chevron.svg?react";
+
+import Block from "../assets/icons/basic/block.svg?react";
+import BurgerMenu from "../assets/icons/basic/burger-menu.svg?react";
+import Check from "../assets/icons/basic/check.svg?react";
+import CheckRound from "../assets/icons/basic/check-round.svg?react";
+import CloseRound from "../assets/icons/basic/close-round.svg?react";
+import Grid from "../assets/icons/basic/grid.svg?react";
+import Home from "../assets/icons/basic/home.svg?react";
+import Info from "../assets/icons/basic/info.svg?react";
+import List from "../assets/icons/basic/list.svg?react";
+import Login from "../assets/icons/basic/login.svg?react";
+import Logout from "../assets/icons/basic/logout.svg?react";
+import Mark from "../assets/icons/basic/mark.svg?react";
+import MinusRound from "../assets/icons/basic/minus-round.svg?react";
+import PlusRound from "../assets/icons/basic/plus-round.svg?react";
+import Profile from "../assets/icons/basic/profile.svg?react";
+import Search from "../assets/icons/basic/search.svg?react";
+import HeartFilled from "../assets/icons/basic/heart/filled.svg?react";
+import HeartOutline from "../assets/icons/basic/heart/outline.svg?react";
+import StarFilled from "../assets/icons/basic/star/filled.svg?react";
+import StarOutline from "../assets/icons/basic/star/outline.svg?react";
+
+import Calendar from "../assets/icons/time-date/calendar.svg?react";
+import Clock from "../assets/icons/time-date/clock.svg?react";
+import History from "../assets/icons/time-date/history.svg?react";
+
+import ClosedEye from "../assets/icons/security/closed-eye.svg?react";
+import Eye from "../assets/icons/security/eye.svg?react";
+import Lock from "../assets/icons/security/lock.svg?react";
+import Shield from "../assets/icons/security/shield.svg?react";
+import Unlock from "../assets/icons/security/unlock.svg?react";
+
+import Alert from "../assets/icons/alerts/alert.svg?react";
+import AlertOctagon from "../assets/icons/alerts/alert-octagon.svg?react";
+import Bell from "../assets/icons/alerts/bell.svg?react";
+import Danger from "../assets/icons/alerts/danger.svg?react";
+
+import Chat from "../assets/icons/communications/chat.svg?react";
+import Comment from "../assets/icons/communications/comment.svg?react";
+import EnvelopeOpened from "../assets/icons/communications/envelope-opened.svg?react";
+import Iphone from "../assets/icons/communications/iphone.svg?react";
+import Mail from "../assets/icons/communications/mail.svg?react";
+import Mention from "../assets/icons/communications/mention.svg?react";
+
+import Attach from "../assets/icons/files/attach.svg?react";
+import ExternalLink from "../assets/icons/files/external-link.svg?react";
+import Files from "../assets/icons/files/files.svg?react";
+import Layouts from "../assets/icons/files/layouts.svg?react";
+import Mic from "../assets/icons/files/mic.svg?react";
+import Play from "../assets/icons/files/play.svg?react";
+import Share from "../assets/icons/files/share.svg?react";
+import Upload from "../assets/icons/files/upload.svg?react";
+
+import PinOutline from "../assets/icons/navigation/pin/outline.svg?react";
+import PinSolid from "../assets/icons/navigation/pin/solid.svg?react";
+
+import NoVolumeOutline from "../assets/icons/volume/no_volume_outline.svg?react";
+import Off from "../assets/icons/volume/off.svg?react";
+import On from "../assets/icons/volume/on.svg?react";
+import Outline from "../assets/icons/volume/outline.svg?react";
+
+import Bag from "../assets/icons/shopping/bag.svg?react";
+import Card from "../assets/icons/shopping/card.svg?react";
+import Cart from "../assets/icons/shopping/cart.svg?react";
+import Delete from "../assets/icons/shopping/delete.svg?react";
+import Dislike from "../assets/icons/shopping/dislike.svg?react";
+import Filter1 from "../assets/icons/shopping/filter-1.svg?react";
+import Filter2 from "../assets/icons/shopping/filter-2.svg?react";
+import Hanger from "../assets/icons/shopping/hanger.svg?react";
+import Like from "../assets/icons/shopping/like.svg?react";
+import Wallet from "../assets/icons/shopping/wallet.svg?react";
+
+import Behance from "../assets/icons/social/behance.svg?react";
+import Dribbble from "../assets/icons/social/dribbble.svg?react";
+import Facebook from "../assets/icons/social/facebook.svg?react";
+import Figma from "../assets/icons/social/figma.svg?react";
+import Github from "../assets/icons/social/github.svg?react";
+import Gitlab from "../assets/icons/social/gitlab.svg?react";
+import Google from "../assets/icons/social/google.svg?react";
+import GoogleHangouts from "../assets/icons/social/google-hangouts.svg?react";
+import Instagram from "../assets/icons/social/instagram.svg?react";
+import InstagramFilled from "../assets/icons/social/instagram-filled.svg?react";
+import LinkedIn from "../assets/icons/social/linked-in.svg?react";
+import Messenger from "../assets/icons/social/messenger.svg?react";
+import Odnoklassniki from "../assets/icons/social/odnoklassniki.svg?react";
+import Paypal from "../assets/icons/social/paypal.svg?react";
+import Pinterest from "../assets/icons/social/pinterest.svg?react";
+import Rss from "../assets/icons/social/rss.svg?react";
+import Skype from "../assets/icons/social/skype.svg?react";
+import Slack from "../assets/icons/social/slack.svg?react";
+import SlackFilled from "../assets/icons/social/slack-filled.svg?react";
+import Stripe from "../assets/icons/social/stripe.svg?react";
+import Telegram from "../assets/icons/social/telegram.svg?react";
+import Tumblr from "../assets/icons/social/tumblr.svg?react";
+import Twitch from "../assets/icons/social/twitch.svg?react";
+import Twitter from "../assets/icons/social/twitter.svg?react";
+import Viber from "../assets/icons/social/viber.svg?react";
+import Vimeo from "../assets/icons/social/vimeo.svg?react";
+import Vkontakte from "../assets/icons/social/vkontakte.svg?react";
+import Wechat from "../assets/icons/social/wechat.svg?react";
+import Whatsapp from "../assets/icons/social/whatsapp.svg?react";
+import Youtube from "../assets/icons/social/youtube.svg?react";
+
+import IcCallCenter from "../assets/icons/additional/ic-call-center.svg?react";
+import IcCreditCard from "../assets/icons/additional/ic-credit-card.svg?react";
+import IcDelivery from "../assets/icons/additional/ic-delivery.svg?react";
+import IcShield from "../assets/icons/additional/ic-shield.svg?react";
+import Bleach from "../assets/icons/additional/fabric-care/bleach.svg?react";
+import DryClean from "../assets/icons/additional/fabric-care/dry-clean.svg?react";
+import HandWash from "../assets/icons/additional/fabric-care/hand-wash.svg?react";
+import Ironing from "../assets/icons/additional/fabric-care/ironing.svg?react";
+import Ironing1 from "../assets/icons/additional/fabric-care/ironing-1.svg?react";
+import Ironing2 from "../assets/icons/additional/fabric-care/ironing-2.svg?react";
+import Ironing3 from "../assets/icons/additional/fabric-care/ironing-3.svg?react";
+import NoBleach from "../assets/icons/additional/fabric-care/no-bleach.svg?react";
+import NoDryClean from "../assets/icons/additional/fabric-care/no-dry-clean.svg?react";
+import NoIroning from "../assets/icons/additional/fabric-care/no-ironing.svg?react";
+import NoTumbleDry from "../assets/icons/additional/fabric-care/no-tumble-dry.svg?react";
+import NoWash from "../assets/icons/additional/fabric-care/no-wash.svg?react";
+import TumbleDry from "../assets/icons/additional/fabric-care/tumble-dry.svg?react";
+import TumbleDry1 from "../assets/icons/additional/fabric-care/tumble-dry-1.svg?react";
+import TumbleDry2 from "../assets/icons/additional/fabric-care/tumble-dry-2.svg?react";
+import TumbleDry3 from "../assets/icons/additional/fabric-care/tumble-dry-3.svg?react";
+import Wash from "../assets/icons/additional/fabric-care/wash.svg?react";
+import Wash1 from "../assets/icons/additional/fabric-care/wash-1.svg?react";
+import Wash2 from "../assets/icons/additional/fabric-care/wash-2.svg?react";
+import Wash3 from "../assets/icons/additional/fabric-care/wash-3.svg?react";
+
+<Meta title="Iconography" />
+
+# Iconography
+
+## Arrows
+
+<IconGallery>
+  <IconItem name="up">
+    <Up />
+  </IconItem>
+  <IconItem name="right">
+    <Right />
+  </IconItem>
+  <IconItem name="down">
+    <Down />
+  </IconItem>
+  <IconItem name="left">
+    <Left />
+  </IconItem>
+  <IconItem name="top-right">
+    <TopRight />
+  </IconItem>
+  <IconItem name="bottom-right">
+    <BottomRight />
+  </IconItem>
+  <IconItem name="bottom-left">
+    <BottomLeft />
+  </IconItem>
+  <IconItem name="top-left">
+    <TopLeft />
+  </IconItem>
+</IconGallery>
+
+## Arrows/other
+
+<IconGallery>
+  <IconItem name="back">
+    <Back />
+  </IconItem>
+  <IconItem name="convert">
+    <Convert />
+  </IconItem>
+  <IconItem name="expand">
+    <Expand />
+  </IconItem>
+  <IconItem name="fluid-horizontal">
+    <FluidHorizontal />
+  </IconItem>
+  <IconItem name="fluid-vertical">
+    <FluidVertical />
+  </IconItem>
+  <IconItem name="forward">
+    <Forward />
+  </IconItem>
+  <IconItem name="horizontal">
+    <Horizontal />
+  </IconItem>
+  <IconItem name="reload">
+    <Reload />
+  </IconItem>
+  <IconItem name="share-arrow">
+    <ShareArrow />
+  </IconItem>
+  <IconItem name="up-down-select">
+    <UpDownSelect />
+  </IconItem>
+  <IconItem name="vertical">
+    <Vertical />
+  </IconItem>
+</IconGallery>
+
+## Plus minus cross
+
+<IconGallery>
+  <IconItem name="cross">
+    <Cross />
+  </IconItem>
+  <IconItem name="minus">
+    <Minus />
+  </IconItem>
+  <IconItem name="plus">
+    <Plus />
+  </IconItem>
+</IconGallery>
+
+## Chevrons
+
+<IconGallery>
+  <IconItem name="down-chevron">
+    <DownChevron />
+  </IconItem>
+  <IconItem name="left-chevron">
+    <LeftChevron />
+  </IconItem>
+  <IconItem name="right-chevron">
+    <RightChevron />
+  </IconItem>
+  <IconItem name="up-chevron">
+    <UpChevron />
+  </IconItem>
+</IconGallery>
+
+## Basic
+
+<IconGallery>
+  <IconItem name="block">
+    <Block />
+  </IconItem>
+  <IconItem name="burger-menu">
+    <BurgerMenu />
+  </IconItem>
+  <IconItem name="check">
+    <Check />
+  </IconItem>
+  <IconItem name="check-round">
+    <CheckRound />
+  </IconItem>
+  <IconItem name="close-round">
+    <CloseRound />
+  </IconItem>
+  <IconItem name="grid">
+    <Grid />
+  </IconItem>
+  <IconItem name="home">
+    <Home />
+  </IconItem>
+  <IconItem name="info">
+    <Info />
+  </IconItem>
+  <IconItem name="list">
+    <List />
+  </IconItem>
+  <IconItem name="login">
+    <Login />
+  </IconItem>
+  <IconItem name="logout">
+    <Logout />
+  </IconItem>
+  <IconItem name="mark">
+    <Mark />
+  </IconItem>
+  <IconItem name="minus-round">
+    <MinusRound />
+  </IconItem>
+  <IconItem name="plus-round">
+    <PlusRound />
+  </IconItem>
+  <IconItem name="profile">
+    <Profile />
+  </IconItem>
+  <IconItem name="search">
+    <Search />
+  </IconItem>
+  <IconItem name="heart/filled">
+    <HeartFilled />
+  </IconItem>
+  <IconItem name="heart/outline">
+    <HeartOutline />
+  </IconItem>
+  <IconItem name="star/filled">
+    <StarFilled />
+  </IconItem>
+  <IconItem name="star/outline">
+    <StarOutline />
+  </IconItem>
+</IconGallery>
+
+## Time & Date
+
+<IconGallery>
+  <IconItem name="calendar">
+    <Calendar />
+  </IconItem>
+  <IconItem name="clock">
+    <Clock />
+  </IconItem>
+  <IconItem name="history">
+    <History />
+  </IconItem>
+</IconGallery>
+
+## Security
+
+<IconGallery>
+  <IconItem name="closed-eye">
+    <ClosedEye />
+  </IconItem>
+  <IconItem name="eye">
+    <Eye />
+  </IconItem>
+  <IconItem name="lock">
+    <Lock />
+  </IconItem>
+  <IconItem name="shield">
+    <Shield />
+  </IconItem>
+  <IconItem name="unlock">
+    <Unlock />
+  </IconItem>
+</IconGallery>
+
+## Alerts
+
+<IconGallery>
+  <IconItem name="alert">
+    <Alert />
+  </IconItem>
+  <IconItem name="alert-octagon">
+    <AlertOctagon />
+  </IconItem>
+  <IconItem name="bell">
+    <Bell />
+  </IconItem>
+  <IconItem name="danger">
+    <Danger />
+  </IconItem>
+</IconGallery>
+
+## Communications
+
+<IconGallery>
+  <IconItem name="chat">
+    <Chat />
+  </IconItem>
+  <IconItem name="comment">
+    <Comment />
+  </IconItem>
+  <IconItem name="envelope-opened">
+    <EnvelopeOpened />
+  </IconItem>
+  <IconItem name="iphone">
+    <Iphone />
+  </IconItem>
+  <IconItem name="mail">
+    <Mail />
+  </IconItem>
+  <IconItem name="mention">
+    <Mention />
+  </IconItem>
+</IconGallery>
+
+## Files
+
+<IconGallery>
+  <IconItem name="attach">
+    <Attach />
+  </IconItem>
+  <IconItem name="external-link">
+    <ExternalLink />
+  </IconItem>
+  <IconItem name="files">
+    <Files />
+  </IconItem>
+  <IconItem name="layouts">
+    <Layouts />
+  </IconItem>
+  <IconItem name="mic">
+    <Mic />
+  </IconItem>
+  <IconItem name="play">
+    <Play />
+  </IconItem>
+  <IconItem name="share">
+    <Share />
+  </IconItem>
+  <IconItem name="upload">
+    <Upload />
+  </IconItem>
+</IconGallery>
+
+## Navigation
+
+<IconGallery>
+  <IconItem name="pin/outline">
+    <PinOutline />
+  </IconItem>
+  <IconItem name="pin/solid">
+    <PinSolid />
+  </IconItem>
+</IconGallery>
+
+## Volume
+
+<IconGallery>
+  <IconItem name="no_volume_outline">
+    <NoVolumeOutline />
+  </IconItem>
+  <IconItem name="off">
+    <Off />
+  </IconItem>
+  <IconItem name="on">
+    <On />
+  </IconItem>
+  <IconItem name="outline">
+    <Outline />
+  </IconItem>
+</IconGallery>
+
+## Shopping
+
+<IconGallery>
+  <IconItem name="bag">
+    <Bag />
+  </IconItem>
+  <IconItem name="card">
+    <Card />
+  </IconItem>
+  <IconItem name="cart">
+    <Cart />
+  </IconItem>
+  <IconItem name="delete">
+    <Delete />
+  </IconItem>
+  <IconItem name="dislike">
+    <Dislike />
+  </IconItem>
+  <IconItem name="filter-1">
+    <Filter1 />
+  </IconItem>
+  <IconItem name="filter-2">
+    <Filter2 />
+  </IconItem>
+  <IconItem name="hanger">
+    <Hanger />
+  </IconItem>
+  <IconItem name="like">
+    <Like />
+  </IconItem>
+  <IconItem name="wallet">
+    <Wallet />
+  </IconItem>
+</IconGallery>
+
+## Social
+
+<IconGallery>
+  <IconItem name="behance">
+    <Behance />
+  </IconItem>
+  <IconItem name="dribbble">
+    <Dribbble />
+  </IconItem>
+  <IconItem name="facebook">
+    <Facebook />
+  </IconItem>
+  <IconItem name="figma">
+    <Figma />
+  </IconItem>
+  <IconItem name="github">
+    <Github />
+  </IconItem>
+  <IconItem name="gitlab">
+    <Gitlab />
+  </IconItem>
+  <IconItem name="google">
+    <Google />
+  </IconItem>
+  <IconItem name="google-hangouts">
+    <GoogleHangouts />
+  </IconItem>
+  <IconItem name="instagram">
+    <Instagram />
+  </IconItem>
+  <IconItem name="instagram-filled">
+    <InstagramFilled />
+  </IconItem>
+  <IconItem name="linked-in">
+    <LinkedIn />
+  </IconItem>
+  <IconItem name="messenger">
+    <Messenger />
+  </IconItem>
+  <IconItem name="odnoklassniki">
+    <Odnoklassniki />
+  </IconItem>
+  <IconItem name="paypal">
+    <Paypal />
+  </IconItem>
+  <IconItem name="pinterest">
+    <Pinterest />
+  </IconItem>
+  <IconItem name="rss">
+    <Rss />
+  </IconItem>
+  <IconItem name="skype">
+    <Skype />
+  </IconItem>
+  <IconItem name="slack">
+    <Slack />
+  </IconItem>
+  <IconItem name="slack-filled">
+    <SlackFilled />
+  </IconItem>
+  <IconItem name="stripe">
+    <Stripe />
+  </IconItem>
+  <IconItem name="telegram">
+    <Telegram />
+  </IconItem>
+  <IconItem name="tumblr">
+    <Tumblr />
+  </IconItem>
+  <IconItem name="twitch">
+    <Twitch />
+  </IconItem>
+  <IconItem name="twitter">
+    <Twitter />
+  </IconItem>
+  <IconItem name="viber">
+    <Viber />
+  </IconItem>
+  <IconItem name="vimeo">
+    <Vimeo />
+  </IconItem>
+  <IconItem name="vkontakte">
+    <Vkontakte />
+  </IconItem>
+  <IconItem name="wechat">
+    <Wechat />
+  </IconItem>
+  <IconItem name="whatsapp">
+    <Whatsapp />
+  </IconItem>
+  <IconItem name="youtube">
+    <Youtube />
+  </IconItem>
+</IconGallery>
+
+## Additional
+
+<IconGallery>
+  <IconItem name="ic-call-center">
+    <IcCallCenter />
+  </IconItem>
+  <IconItem name="ic-credit-card">
+    <IcCreditCard />
+  </IconItem>
+  <IconItem name="ic-delivery">
+    <IcDelivery />
+  </IconItem>
+  <IconItem name="ic-shield">
+    <IcShield />
+  </IconItem>
+  <IconItem name="fabric-care/bleach">
+    <Bleach />
+  </IconItem>
+  <IconItem name="fabric-care/dry-clean">
+    <DryClean />
+  </IconItem>
+  <IconItem name="fabric-care/hand-wash">
+    <HandWash />
+  </IconItem>
+  <IconItem name="fabric-care/ironing">
+    <Ironing />
+  </IconItem>
+  <IconItem name="fabric-care/ironing-1">
+    <Ironing1 />
+  </IconItem>
+  <IconItem name="fabric-care/ironing-2">
+    <Ironing2 />
+  </IconItem>
+  <IconItem name="fabric-care/ironing-3">
+    <Ironing3 />
+  </IconItem>
+  <IconItem name="fabric-care/no-bleach">
+    <NoBleach />
+  </IconItem>
+  <IconItem name="fabric-care/no-dry-clean">
+    <NoDryClean />
+  </IconItem>
+  <IconItem name="fabric-care/no-ironing">
+    <NoIroning />
+  </IconItem>
+  <IconItem name="fabric-care/no-tumble-dry">
+    <NoTumbleDry />
+  </IconItem>
+  <IconItem name="fabric-care/no-wash">
+    <NoWash />
+  </IconItem>
+  <IconItem name="fabric-care/tumble-dry">
+    <TumbleDry />
+  </IconItem>
+  <IconItem name="fabric-care/tumble-dry-1">
+    <TumbleDry1 />
+  </IconItem>
+  <IconItem name="fabric-care/tumble-dry-2">
+    <TumbleDry2 />
+  </IconItem>
+  <IconItem name="fabric-care/tumble-dry-3">
+    <TumbleDry3 />
+  </IconItem>
+  <IconItem name="fabric-care/wash">
+    <Wash />
+  </IconItem>
+  <IconItem name="fabric-care/wash-1">
+    <Wash1 />
+  </IconItem>
+  <IconItem name="fabric-care/wash-2">
+    <Wash2 />
+  </IconItem>
+  <IconItem name="fabric-care/wash-3">
+    <Wash3 />
+  </IconItem>
+</IconGallery>
