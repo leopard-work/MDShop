@@ -1,5 +1,6 @@
 import Title from "@components/title/title";
 import Text from "@components/text/text";
+import Logo from "@assets/icons/arrows/up.svg?react";
 
 function App() {
   return (
@@ -28,6 +29,8 @@ function App() {
       <Text type="display" variant="h4">
         text lead
       </Text>
+
+      <Logo />
     </>
   );
 }
